@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1.
+        Team List
+    ul
+        each team, i in teamlist
+            li
+                #{i} #{team.team_name}
