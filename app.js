@@ -63,5 +63,7 @@ app.use(function(err, req, res, next) {
     });
 });
 
+var test = require ('./src/web/test.js');
+test.waitForPeriod();
 
 module.exports = app;
